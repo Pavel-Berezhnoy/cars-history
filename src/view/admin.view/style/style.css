@@ -1,0 +1,22 @@
+.admin-view__container {
+  margin-top: 50px;
+  color: var(--text-black);
+  margin: 50px 12px;
+}
+.admin-view__users-container, .admin-view__cars-container {
+  padding: 24px 0;
+}
+.admin-view__add-button a{
+  margin-bottom: 20px;
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--text-black);
+}
+.admin-view__tables {
+  display: flex;
+}
+.admin-view__users {
+  width: 100%;
+}

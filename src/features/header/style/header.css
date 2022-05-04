@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  min-height: 70px;
+  background-color: var(--background-black);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.header-nav__list {
+  color: var(--text-white);
+  display: flex;
+}
+.header-nav__item a{
+  color: var(--text-white);
+  padding: 0 12px;
+}

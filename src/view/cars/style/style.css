@@ -1,0 +1,15 @@
+.cars-view {
+  padding: 40px 0;
+  display: flex;
+}
+.cars-view__column-left, .cars-view__column-right {
+  width: 100%;
+  padding: 0 12px;
+}
+.cars-view__column-left {
+  flex: 0 1 60%;
+  height: 700px;
+}
+.cars-view__column-right {
+  flex: 0 1 40%;
+}

@@ -1,0 +1,15 @@
+.drivers-view {
+  padding: 40px 0;
+  display: flex;
+}
+.drivers-view__column-left, .drivers-view__column-right {
+  width: 100%;
+  padding: 0 12px;
+}
+.drivers-view__column-left {
+  flex: 0 1 60%;
+  height: 700px;
+}
+.drivers-view__column-right {
+  flex: 0 1 40%;
+}

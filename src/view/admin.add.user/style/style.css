@@ -1,0 +1,24 @@
+.admin-change__container {
+  color: var(--text-black);
+  margin: 50px 12px;
+}
+.admin-change__actions {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 12px 0;
+}
+.admin-change__cars-container {
+  display: flex;
+  margin-top: 20px;
+  align-items: flex-start;
+}
+.admin-change__cars-exist {
+  margin: 0 0 0 8px;
+  height: 650px;
+  width: 100%;
+}
+.admin-change__car-cards,
+.admin-change__cars-exist {
+  flex: 0 1 50%;
+}
